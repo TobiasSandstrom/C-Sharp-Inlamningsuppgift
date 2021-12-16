@@ -1,0 +1,15 @@
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.csproj.AssemblyReference.cache
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.AssemblyInfoInputs.cache
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.AssemblyInfo.cs
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.csproj.CoreCompileInputs.cache
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\C-Sharp-Tenta.exe
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\C-Sharp-Tenta.deps.json
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\C-Sharp-Tenta.runtimeconfig.json
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\C-Sharp-Tenta.dll
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\ref\C-Sharp-Tenta.dll
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\bin\Debug\net6.0\C-Sharp-Tenta.pdb
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.dll
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\ref\C-Sharp-Tenta.dll
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.pdb
+C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\obj\Debug\net6.0\C-Sharp-Tenta.genruntimeconfig.cache
