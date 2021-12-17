@@ -7,7 +7,9 @@ namespace C_Sharp_Tenta_Tests
 {
 
     public class GuestHandlerShould
-    {
+    {   
+        // Testar så metoden skapar och lägger till en gäst i gästlistan
+        // Testvarianten och huvudprogrammets metod skiljer sig lite pga att huvudprogrammet behöver användarens input/readlines
         [Fact]
         public void AddGuestToList() 
         {
@@ -16,7 +18,7 @@ namespace C_Sharp_Tenta_Tests
             string UserInputEmail = "Test@Hotmail.com";
             string UserInputSpecialRequest = "Nej";
 
-            List<Guest> testList = AddGuest(UserInputFirstName, UserInputLasttName, UserInputEmail, UserInputSpecialRequest);
+            List<Guest> testList = CreateGuestAndAddToList(UserInputFirstName, UserInputLasttName, UserInputEmail, UserInputSpecialRequest);
 
             Assert.NotEmpty(testList);
 
@@ -24,7 +26,7 @@ namespace C_Sharp_Tenta_Tests
 
         }
 
-        public List<Guest> AddGuest(string userInputFirstName, string UserInputLasttName, string UserInputEmail, string UserInputSpecialRequest)
+        public List<Guest> CreateGuestAndAddToList(string userInputFirstName, string UserInputLasttName, string UserInputEmail, string UserInputSpecialRequest)
         {
 
             Guest testguest = new Guest()
@@ -37,13 +39,13 @@ namespace C_Sharp_Tenta_Tests
             List<Guest> testList = new List<Guest>();
             testList.Add(testguest);
             return testList;
-
-
         }
 
+        //-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
 
-        //Testar så metoden tar bort en gäst i listan
+        // Testar så metoden tar bort en gäst i listan
+
         [Fact]
         public void RemoveGuest()
         {
@@ -59,7 +61,7 @@ namespace C_Sharp_Tenta_Tests
             testGuests.Add(testGuest);
             
             // Ange i path strängen vart testfilen ska hamna, den kommer vara tom men den behövs för att metoden ska fungera
-            string path = @"C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta-Tests\testFile.txt";
+            string path = @"";
             string userInput = "1";
 
             _sut.RemoveGuestFromList(userInput, path, testGuests);
@@ -68,8 +70,12 @@ namespace C_Sharp_Tenta_Tests
 
         }
 
+
+        //-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+
         // Testar så metoden skriver ut gästlistan i en stränglista
-        // Fick skriva om den här metoden lite i huvudprogrammet
+        // Testvarianten och huvudprogrammets metod skiljer sig lite pga att huvudprogrammets behöver användarens input/readlines
         [Fact]
         public void ListGuests()
         {
@@ -106,6 +112,6 @@ namespace C_Sharp_Tenta_Tests
             }
             return consoleReplica;
         }
-
+        //-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
     }
 }

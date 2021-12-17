@@ -22,7 +22,7 @@ namespace C_Sharp_Tenta.Services
         public void MainMenu()
         {
             // Ange vart textfilen ska hamna i stringen nedan
-            string fileLocation = @"C:\Users\Tobia\OneDrive\Skrivbord\Dokument\Skola\3_C#\Inlämningsuppgift_C_SHARP\C-Sharp-Tenta\GuestList.txt";
+            string fileLocation = @"";
             List<Guest> guests = new List<Guest>();
             GuestHandler worker = new GuestHandler();
             DiscountCodeGenerator generator = new DiscountCodeGenerator();
@@ -79,9 +79,9 @@ namespace C_Sharp_Tenta.Services
             }
         }
 
-        //Metod som kallas på när användaren vill registrera en gäst.
-        //Metoden kallar på Guest.AddGuest så användaren får mata in sin information 
-        //och efter det kallar på Guest.WriteGuestToFile för att uppdatera textfilen
+        // Metod som kallas på när användaren vill registrera en gäst.
+        // Metoden kallar på Guest.AddGuest så användaren får mata in sin information 
+        // och efter det kallar på Guest.WriteGuestToFile för att uppdatera textfilen
         public List<Guest> MenuRegister(List<Guest> guests, string fileLocation, GuestHandler worker)
         {
             guests.Add(worker.AddGuest());
@@ -92,7 +92,7 @@ namespace C_Sharp_Tenta.Services
 
 
 
-        //Metod som listar upp alla gäster i listan ifall listan har 1 eller mer gäster
+        // Metod som listar upp alla gäster i listan ifall listan har 1 eller mer gäster
         public void MenuListGuests(List<Guest> guests, GuestHandler worker)
         {
             if (guests.Count > 0)
@@ -108,14 +108,14 @@ namespace C_Sharp_Tenta.Services
             Console.ReadLine();
         }
         
-        //Metod som låter användaren välja vilken gäst som ska tas bort ifrån listan ifall listan har 1 eller mer gäster
+        // Metod som låter användaren välja vilken gäst som ska tas bort ifrån listan ifall listan har 1 eller mer gäster
         public void MenuRemoveGuest(List<Guest> guests, string fileLocation, GuestHandler worker)
         {
             if (guests.Count > 0)
             {
 
                 Console.Clear();
-                Console.WriteLine("Vilken gäst vill ni ta bort? Ange siffran som står innan namnet");
+                Console.WriteLine("Vilken gäst vill ni ta bort? Ange siffran som står innan namnet\n");
                 worker.ListAllGuests(guests);
                 Console.WriteLine(worker.RemoveGuestFromList(Console.ReadLine(), fileLocation, guests));
             }

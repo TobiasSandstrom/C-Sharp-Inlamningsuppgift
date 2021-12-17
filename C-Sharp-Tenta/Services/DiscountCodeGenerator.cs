@@ -12,7 +12,7 @@ namespace C_Sharp_Tenta.Services
     }
     public class DiscountCodeGenerator : iDiscountCodeGenerator
     {
-        //Metod som genererar en rabattkod med hjälp av en string + Random.Next
+        // Metod som genererar en rabattkod med hjälp av en string + Random.Next
         public string GenerateDiscountCode()
         {
             Random random = new Random();

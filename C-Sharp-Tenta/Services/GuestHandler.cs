@@ -18,7 +18,7 @@ namespace C_Sharp_Tenta.Handlers
         public Guest AddGuest()
         {
             Guest guest = new Guest();
-            string ?svar;
+            string? svar;
             bool loop = true;
             bool loop2;
 
@@ -33,7 +33,7 @@ namespace C_Sharp_Tenta.Handlers
                 {
                     Console.Clear();
                     Console.WriteLine("Ange ert förnamn: ");
-                    string ?firstName = Console.ReadLine();
+                    string? firstName = Console.ReadLine();
 
                     if (!string.IsNullOrEmpty(firstName))
                     {
@@ -47,7 +47,7 @@ namespace C_Sharp_Tenta.Handlers
                 {
                     Console.Clear();
                     Console.WriteLine("Ange ert efternamn: ");
-                    string ?lastName = Console.ReadLine();
+                    string? lastName = Console.ReadLine();
 
                     if (!string.IsNullOrEmpty(lastName))
                     {
@@ -61,7 +61,7 @@ namespace C_Sharp_Tenta.Handlers
                 {
                     Console.Clear();
                     Console.WriteLine("Ange er email: ");
-                    string ?email = Console.ReadLine();
+                    string? email = Console.ReadLine();
 
                     if (!string.IsNullOrEmpty(email))
                     {
@@ -114,7 +114,7 @@ namespace C_Sharp_Tenta.Handlers
         }
 
        
-        //Metod för att lista alla gäster i consolen
+        // Metod för att lista alla gäster i consolen
         public void ListAllGuests(List<Guest> guests)
         {
             int i = 1;
@@ -127,7 +127,7 @@ namespace C_Sharp_Tenta.Handlers
             }
         }
 
-        //Metod som skriver alla gäster i gästlistan till en textfil
+        // Metod som skriver alla gäster i gästlistan till en textfil
         public void WriteGuestsToFile(string fileLocation, List<Guest> guests)
         {
             StreamWriter sw = new StreamWriter(fileLocation);
@@ -138,7 +138,7 @@ namespace C_Sharp_Tenta.Handlers
             }
         }
 
-        //Metod som tar bort en gäst ifrån gästlistan
+        // Metod som tar bort en gäst ifrån gästlistan
         public string RemoveGuestFromList(string userInput, string fileLocation, List<Guest> guests)
         {
             string name;
